@@ -24,8 +24,6 @@ function inc(n) {
 
 function makeInt(n) {
   return parseInt(n, 10)
-  it('parses n as an integer and returns the parsed integer', function() {
-    expect(makeInt(a.toString())).toEqual(a)
 }
 
   it('assumes base 10', function() {
